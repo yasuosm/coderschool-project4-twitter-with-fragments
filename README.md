@@ -40,9 +40,15 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
+## Comming Soon
 
-Describe any challenges encountered while building the app.
+The following features will be implemented:
+
+* [ ] User can **"reply" to any tweet on their home timeline**
+  * [ ] The user that wrote the original tweet is automatically "@" replied in compose
+* [ ] User can take favorite (and unfavorite) or retweet actions on a tweet
+* [ ] User can **search for tweets matching a particular query** and see results
+* [ ] User can view their direct messages (or send new ones)
 
 ## Open-source libraries used
 
