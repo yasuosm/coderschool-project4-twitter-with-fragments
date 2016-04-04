@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="colorBackgroundActionBar">#FFFFFF</color>
+    <color name="colorBackgroundImage">#DDDDDD</color>
+    <color name="colorBorderItem">#DDDDDD</color>
+    <color name="colorBackgroundItem">#FFFFFF</color>
+    <color name="colorTextDefault">#292F33</color>
+    <color name="colorTextLighter">#8899A6</color>
+    <color name="colorReplyActive">#0084B4</color>
+    <color name="colorBtnDefault">#AAB8C2</color>
+    <color name="colorRetweetActive">#19cf86</color>
+    <color name="colorFavoriteActive">#e81c4f</color>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/item_tweet_horizontal_margin"
+    android:paddingRight="@dimen/item_tweet_horizontal_margin"
+    android:paddingBottom="@dimen/item_tweet_vertical_margin"
+    android:paddingTop="@dimen/item_tweet_vertical_margin"
+    android:background="@drawable/bg_item">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:riv_corner_radius="4dp"
+        app:riv_oval="false"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/ivProfileImage"
+        android:layout_marginRight="@dimen/item_tweet_horizontal_margin"
+        android:layout_marginEnd="@dimen/item_tweet_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvName"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextDefault"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivProfileImage"
+        android:layout_toEndOf="@+id/ivProfileImage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvScreenName"
+        android:textColor="@color/colorTextLighter"
+        android:textSize="13sp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_below="@+id/tvName"
+        android:layout_toRightOf="@+id/ivProfileImage"
+        android:layout_toEndOf="@+id/ivProfileImage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvDescription"
+        android:textColor="@color/colorTextDefault"
+        android:textSize="13sp"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:layout_below="@+id/tvScreenName"
+        android:layout_toRightOf="@+id/ivProfileImage"
+        android:layout_toEndOf="@+id/ivProfileImage" />
+
+</RelativeLayout>
